@@ -181,6 +181,9 @@ footer{
                 align-items: center;
                 font-size: 24px;
                 margin-right: 50px;
+                &:last-of-type{
+                    margin-bottom: 0px;
+                }
                 &:nth-of-type(1)>span{
                     background-image: url(../img/icon/letter.png);
                 }
@@ -199,6 +202,237 @@ footer{
                     background-repeat: no-repeat;
                     background-position: center;
                 
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    header{
+        width: 100%;
+        position: fixed;
+        left: 00px;
+        top:0px;
+        z-index: 99;
+        border-bottom: solid 3px #000;
+        
+        >div{
+            // width: 60px;
+            display: flex;
+            height: 60px;
+            border: none;
+            
+            background-color: #fff;
+           
+         
+            >.menu{
+                display: none;
+            }
+            >nav{
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: 0s;
+                >a{
+                    display: block;
+                    margin-right: 00px;
+                    text-transform: uppercase;
+                }
+                
+    
+    
+    
+            }
+        }
+    }
+    
+    footer{
+        // display: none;
+        width: 100%;
+       
+        >div{
+            width: 100%;
+            padding: 20px;
+            border-top: solid 3px #000;
+            >.top{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                >p{
+                    white-space: pre-line;
+                    font-size: 16px;
+                    line-height: 24px;
+                    
+                    &:nth-of-type(1){
+                        width: 100%;
+                    }
+                    &:nth-of-type(2){
+                        position: absolute;
+                        text-align: right;
+                        right: 0px;
+                        top: 100px;
+                        width: 100%;
+                    }
+                    &:nth-of-type(3){
+                        width: 100%;
+                        text-align: right;
+                    }
+    
+                }
+            }
+            >.bottom{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                >a{
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-right: 00px;
+                    margin-bottom: 15px;
+                    &:last-of-type{
+                        margin-bottom: 0px;
+                    }
+                    &:nth-of-type(1)>span{
+                        background-image: url(../img/icon/letter.png);
+                    }
+                    &:nth-of-type(2)>span{
+                        background-image: url(../img/icon/instargram.png);
+                    }
+                    &:nth-of-type(3)>span{
+                        background-image: url(../img/icon/git-hub.png);
+                    }
+    
+                    >span{
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    header{
+        width: 100%;
+        position: fixed;
+        left: 00px;
+        top:0px;
+        z-index: 99;
+        border-bottom: solid 3px #000;
+        
+        >div{
+            // width: 60px;
+            display: flex;
+            height: 60px;
+            border: none;
+            
+            background-color: #fff;
+           
+         
+            >.menu{
+                display: none;
+            }
+            >nav{
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: 0s;
+                >a{
+                    font-size: 20px;
+                    display: block;
+                    margin-right: 00px;
+                    text-transform: uppercase;
+                }
+                
+    
+    
+    
+            }
+        }
+    }
+    
+    footer{
+        // display: none;
+        width: 100%;
+       
+        >div{
+            width: 100%;
+            padding: 20px;
+            border-top: solid 3px #000;
+            >.top{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                >p{
+                    white-space: pre-line;
+                    font-size: 20px;
+                    line-height: 30px;
+                    
+                    &:nth-of-type(1){
+                        width: 100%;
+                    }
+                    &:nth-of-type(2){
+                        position: absolute;
+                        text-align: right;
+                        right: 0px;
+                        top: 120px;
+                        width: 100%;
+                    }
+                    &:nth-of-type(3){
+                        width: 100%;
+                        text-align: right;
+                    }
+    
+                }
+            }
+            >.bottom{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                >a{
+                    display: flex;
+                    align-items: center;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-right: 00px;
+                    margin-bottom: 15px;
+                    &:nth-of-type(1)>span{
+                        background-image: url(../img/icon/letter.png);
+                    }
+                    &:nth-of-type(2)>span{
+                        background-image: url(../img/icon/instargram.png);
+                    }
+                    &:nth-of-type(3)>span{
+                        background-image: url(../img/icon/git-hub.png);
+                    }
+    
+                    >span{
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    
+                    }
                 }
             }
         }

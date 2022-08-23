@@ -60,6 +60,19 @@ $.ajax({
 })
 
 
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+
+jQuery(document).ready(function(){
+if(isMobile) {
+location.href="./mobile.html"
+}
+});
+
+
+
+
+
+
 
 history.scrollRestoration = "manual";
 

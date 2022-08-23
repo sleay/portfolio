@@ -1,0 +1,329 @@
+@import url(./common.css);
+@media (min-width: 320px) and (max-width: 767px) {
+  .section1 {
+    padding: 0px 20px;
+  }
+  .section1 .frame_box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    margin-top: 110px;
+    width: 70%;
+    height: 40vh;
+    z-index: 77;
+    transition: 0s;
+  }
+  .section1 .frame_box > .frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .section1 .frame_box > .content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .section1 .frame_box > .content > img {
+    width: 100%;
+    height: 100%;
+    -o-object-position: top;
+       object-position: top;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section1 .intro_text {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+  }
+  .section1 .intro_text > .sub {
+    margin: 0 auto;
+    display: flex;
+    white-space: pre-line;
+    width: 70%;
+    height: 100%;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .section1 .intro_text > .sub > h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .section1 .intro_text > .sub > p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .section1 .intro_text > .sub > p > a {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .section1 .intro_text > .sub > p > a::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: solid 8px transparent;
+    border-left: solid 8px #000;
+    border-right: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+  }
+  .section2 {
+    margin-top: 150px;
+  }
+  .section2 .bg_frame {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 30vh;
+  }
+  .section2 .bg_frame > .frame {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: calc(100% - 40px);
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .section2 .bg_frame > .content {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: calc(100% - 60px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .section2 .bg_frame > .content > video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .section2 > ul {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .section2 > ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 3px #000;
+    padding: 15px 20px;
+  }
+  .section2 > ul > li > p {
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .section2 > ul > li > div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .section2 > ul > li > div span {
+    font-size: 12px;
+  }
+  .section3 {
+    margin-top: 150px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 > p {
+    text-align: center;
+    white-space: pre-line;
+    font-size: 60px;
+    line-height: 90px;
+    margin-bottom: 21px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section1 {
+    padding: 0px 20px;
+  }
+  .section1 .frame_box {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    margin-top: 110px;
+    width: 70%;
+    height: 40vh;
+    z-index: 77;
+    transition: 0s;
+  }
+  .section1 .frame_box > .frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .section1 .frame_box > .content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .section1 .frame_box > .content > img {
+    width: 100%;
+    height: 100%;
+    -o-object-position: top;
+       object-position: top;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section1 .intro_text {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+  }
+  .section1 .intro_text > .sub {
+    margin: 0 auto;
+    display: flex;
+    white-space: pre-line;
+    width: 70%;
+    height: 100%;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .section1 .intro_text > .sub > h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .section1 .intro_text > .sub > p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .section1 .intro_text > .sub > p > a {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .section1 .intro_text > .sub > p > a::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: solid 8px transparent;
+    border-left: solid 8px #000;
+    border-right: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+  }
+  .section2 {
+    margin-top: 150px;
+  }
+  .section2 .bg_frame {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 30vh;
+  }
+  .section2 .bg_frame > .frame {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: calc(100% - 40px);
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .section2 .bg_frame > .content {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: calc(100% - 60px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .section2 .bg_frame > .content > video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .section2 > ul {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .section2 > ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 3px #000;
+    padding: 15px 20px;
+  }
+  .section2 > ul > li > p {
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .section2 > ul > li > div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .section2 > ul > li > div span {
+    font-size: 12px;
+  }
+  .section3 {
+    margin-top: 150px;
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 > p {
+    text-align: center;
+    white-space: pre-line;
+    font-size: 60px;
+    line-height: 90px;
+    margin-bottom: 21px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
