@@ -178,6 +178,7 @@ main {
   transform: translateY(-50%);
   transition: 2s;
   opacity: 0;
+  cursor: pointer;
 }
 .section2 > .frame_box1 > .frame {
   position: absolute;

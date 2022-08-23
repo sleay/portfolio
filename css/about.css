@@ -839,4 +839,609 @@ h2 {
     font-size: 16px;
     font-weight: 40px;
   }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.15));
+  }
+  .contain1 {
+    padding: 20px;
+    display: block;
+    margin-bottom: 130px;
+  }
+  .contain1 > h2 {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    text-align: center;
+  }
+  .contain1 .frame_box {
+    position: relative;
+    margin-left: 0;
+    margin: 150px auto 0;
+    width: 70%;
+    height: 40vh;
+  }
+  .contain1 .frame_box > .frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain1 .frame_box > .content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .contain1 .frame_box > .content > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .contain1 .text {
+    width: 66%;
+    margin: 50px auto 0;
+    white-space: pre-line;
+    line-height: 0;
+  }
+  .contain1 .text .a {
+    margin-bottom: 50px;
+  }
+  .contain1 .text .b {
+    font-size: 12px;
+    white-space: normal;
+  }
+  .contain1 .text > p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+  .contain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+  }
+  .contain2 > h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .contain2 .frame_warp {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    width: 300px;
+    height: 172px;
+  }
+  .contain2 .frame_warp .frame1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 5px #fff;
+    box-shadow: inset 5px 3px 5px rgba(0, 0, 0, 0.3), 5px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain2 .frame_warp .content1 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    overflow: hidden;
+  }
+  .contain2 .frame_warp .content1 > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    transition: 0.3s;
+  }
+  .contain2 .frame_warp .content1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .contain2 .frame_warp .content1 > div > span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contain2 .frame_warp .small {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    border: solid 5px #000;
+  }
+  .contain2 .frame_warp .small:hover .content1 > img {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .small:hover .content1 > div {
+    transform: translateY(-115%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .small:nth-of-type(2) {
+    margin-bottom: 30px !important;
+  }
+  .contain2 .frame_warp .medium {
+    position: relative;
+    width: 60px;
+    height: 80px;
+    border: solid 5px #000;
+  }
+  .contain2 .frame_warp .medium:hover .content1 > img {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .medium:hover .content1 > div {
+    transform: translateY(-109%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .frame_flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contain2 .frame_warp .frame_flex > .small:nth-of-type(1) {
+    margin-top: 30px !important;
+  }
+  .contain2 .frame_warp .ps {
+    background-color: #31A8FF;
+  }
+  .contain2 .frame_warp .xd {
+    background-color: #FF61F6;
+  }
+  .contain2 .frame_warp .figma {
+    background-image: url(../img/icon/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contain2 .frame_warp .ai {
+    background-color: #FC9800;
+  }
+  .contain2 .frame_warp .vsc {
+    background-color: #0182CE;
+  }
+  .contain2 .frame_warp .id {
+    background-color: #FB3265;
+  }
+  .contain2 > p {
+    width: 70%;
+    margin-top: 70px;
+    text-align: center;
+    white-space: normal;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .contain3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .contain3 > h2 {
+    margin-bottom: 70px;
+  }
+  .contain3 .frame_warp2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 130px;
+  }
+  .contain3 .frame_warp2 > div {
+    position: relative;
+    width: 50px;
+    height: 65px;
+    border: solid 3px #000;
+  }
+  .contain3 .frame_warp2 > div:hover .content1 > img {
+    transform: translateY(-104%);
+    opacity: 1;
+  }
+  .contain3 .frame_warp2 > div:hover .content1 > div {
+    transform: translateY(-110%);
+    opacity: 1;
+  }
+  .contain3 .frame_warp2 > div:nth-of-type(2) {
+    margin-bottom: 65px;
+  }
+  .contain3 .frame_warp2 > div:nth-of-type(4) {
+    margin-top: 65px;
+  }
+  .contain3 .frame_warp2 > div .frame1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 5px #fff;
+    box-shadow: inset 5px 3px 5px rgba(0, 0, 0, 0.3), 5px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain3 .frame_warp2 > div .content1 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    overflow: hidden;
+  }
+  .contain3 .frame_warp2 > div .content1 > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: 0.3s;
+  }
+  .contain3 .frame_warp2 > div .content1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .contain3 .frame_warp2 > div .content1 > div > span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contain3 .frame_warp2 > div .html {
+    background-color: #F0662B;
+  }
+  .contain3 .frame_warp2 > div .css {
+    background-color: #33A8DB;
+  }
+  .contain3 .frame_warp2 > div .scss {
+    background-color: #C86496;
+  }
+  .contain3 .frame_warp2 > div .jq {
+    background-color: #116BAF;
+  }
+  .contain3 .frame_warp2 > div .js {
+    background-color: #F6DE1E;
+  }
+  .contain3 .frame_warp2 > div .js > span {
+    color: #000 !important;
+  }
+  .contain3 > p {
+    width: 70%;
+    margin-top: 70px;
+    text-align: center;
+    white-space: normal;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.15));
+  }
+  .contain1 {
+    padding: 20px;
+    display: block;
+    margin-bottom: 130px;
+  }
+  .contain1 > h2 {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    text-align: center;
+  }
+  .contain1 .frame_box {
+    position: relative;
+    margin-left: 0;
+    margin: 150px auto 0;
+    width: 70%;
+    height: 40vh;
+  }
+  .contain1 .frame_box > .frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #000;
+    box-shadow: inset 10px 10px 5px rgba(0, 0, 0, 0.3), 10px 10px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain1 .frame_box > .content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: solid 10px #fff;
+  }
+  .contain1 .frame_box > .content > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .contain1 .text {
+    width: 66%;
+    margin: 50px auto 0;
+    white-space: pre-line;
+    line-height: 0;
+  }
+  .contain1 .text .a {
+    margin-bottom: 50px;
+  }
+  .contain1 .text .b {
+    font-size: 14px;
+    white-space: normal;
+    font-weight: 400;
+  }
+  .contain1 .text > p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .contain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 160px;
+  }
+  .contain2 > h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  .contain2 .frame_warp {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    width: 600px;
+    height: 344px;
+  }
+  .contain2 .frame_warp .frame1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 5px #fff;
+    box-shadow: inset 5px 3px 5px rgba(0, 0, 0, 0.3), 5px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain2 .frame_warp .content1 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    overflow: hidden;
+  }
+  .contain2 .frame_warp .content1 > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    transition: 0.3s;
+  }
+  .contain2 .frame_warp .content1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .contain2 .frame_warp .content1 > div > span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contain2 .frame_warp .small {
+    position: relative;
+    width: 120px;
+    height: 100px;
+    border: solid 5px #000;
+  }
+  .contain2 .frame_warp .small:hover .content1 > img {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .small:hover .content1 > div {
+    transform: translateY(-115%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .small:nth-of-type(2) {
+    margin-bottom: 60px !important;
+  }
+  .contain2 .frame_warp .medium {
+    position: relative;
+    width: 120px;
+    height: 160px;
+    border: solid 5px #000;
+  }
+  .contain2 .frame_warp .medium:hover .content1 > img {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .medium:hover .content1 > div {
+    transform: translateY(-109%);
+    opacity: 1;
+  }
+  .contain2 .frame_warp .frame_flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contain2 .frame_warp .frame_flex > .small:nth-of-type(1) {
+    margin-top: 60px !important;
+  }
+  .contain2 .frame_warp .ps {
+    background-color: #31A8FF;
+  }
+  .contain2 .frame_warp .xd {
+    background-color: #FF61F6;
+  }
+  .contain2 .frame_warp .figma {
+    background-image: url(../img/icon/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contain2 .frame_warp .ai {
+    background-color: #FC9800;
+  }
+  .contain2 .frame_warp .vsc {
+    background-color: #0182CE;
+  }
+  .contain2 .frame_warp .id {
+    background-color: #FB3265;
+  }
+  .contain2 > p {
+    width: 70%;
+    margin-top: 70px;
+    text-align: center;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contain3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .contain3 > h2 {
+    margin-bottom: 70px;
+  }
+  .contain3 .frame_warp2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 600px;
+    height: 260px;
+  }
+  .contain3 .frame_warp2 > div {
+    position: relative;
+    width: 100px;
+    height: 130px;
+    border: solid 5px #000;
+  }
+  .contain3 .frame_warp2 > div:hover .content1 > img {
+    transform: translateY(-104%);
+    opacity: 1;
+  }
+  .contain3 .frame_warp2 > div:hover .content1 > div {
+    transform: translateY(-110%);
+    opacity: 1;
+  }
+  .contain3 .frame_warp2 > div:nth-of-type(2) {
+    margin-bottom: 130px;
+  }
+  .contain3 .frame_warp2 > div:nth-of-type(4) {
+    margin-top: 130px;
+  }
+  .contain3 .frame_warp2 > div .frame1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: solid 5px #fff;
+    box-shadow: inset 5px 3px 5px rgba(0, 0, 0, 0.3), 5px 3px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .contain3 .frame_warp2 > div .content1 {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    overflow: hidden;
+  }
+  .contain3 .frame_warp2 > div .content1 > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: 0.3s;
+  }
+  .contain3 .frame_warp2 > div .content1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .contain3 .frame_warp2 > div .content1 > div > span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contain3 .frame_warp2 > div .html {
+    background-color: #F0662B;
+  }
+  .contain3 .frame_warp2 > div .css {
+    background-color: #33A8DB;
+  }
+  .contain3 .frame_warp2 > div .scss {
+    background-color: #C86496;
+  }
+  .contain3 .frame_warp2 > div .jq {
+    background-color: #116BAF;
+  }
+  .contain3 .frame_warp2 > div .js {
+    background-color: #F6DE1E;
+  }
+  .contain3 .frame_warp2 > div .js > span {
+    color: #000 !important;
+  }
+  .contain3 > p {
+    width: 70%;
+    margin-top: 70px;
+    text-align: center;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=about.css.map */

@@ -213,6 +213,10 @@ footer > div > .bottom > a > span {
     top: 0px;
     z-index: 99;
     border-bottom: solid 3px #000;
+    transition: 0.3s;
+  }
+  header.active {
+    transform: translateY(-100%);
   }
   header > div {
     display: flex;
@@ -312,6 +316,10 @@ footer > div > .bottom > a > span {
     top: 0px;
     z-index: 99;
     border-bottom: solid 3px #000;
+    transition: 0.3s;
+  }
+  header.active {
+    transform: translateY(-100%);
   }
   header > div {
     display: flex;
