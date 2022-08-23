@@ -60,13 +60,23 @@ $.ajax({
 })
 
 
-var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+// var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
 
-jQuery(document).ready(function(){
-if(isMobile) {
-location.href="./mobile.html"
-}
-});
+// jQuery(document).ready(function(){
+// if(isMobile) {
+// location.href="./mobile.html"
+// }
+// });
+
+var uAgent = navigator.userAgent.toLowerCase();
+
+var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
+for (var i = 0; i < mobilePhones.length; i++){
+  if (uAgent.indexOf(mobilePhones[i]) != -1){
+    location.href="./mobile.html";
+  }
+};
+
 
 
 
