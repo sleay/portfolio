@@ -38,6 +38,11 @@ $.ajax({
         $('video').get(1).play();
         })
 
+        $(v).on('click',function(){
+            localStorage.setItem('k2',k);
+            localStorage.removeItem('k1');
+            location.href = './pr1.html'
+        });
     });
     
 
@@ -45,6 +50,7 @@ $.ajax({
         $(v).on('click',function(){
             console.log(k)
             localStorage.setItem('k2',k);
+            localStorage.removeItem('k1');
             location.href = './pr1.html'
         });
     });
@@ -64,16 +70,14 @@ let btncount=0;
 
 
 if(localStorage.getItem('k1', 'work')){
-    $( 'html, body' ).animate( { scrollTop : 2001 }, 1000 );
-
+    $( 'html, body' ).animate( { scrollTop : 2001 }, 0 );
+    
     // $('html, body').scrollTop() = 2001;
-
-       
 }
 
-setTimeout(function(){
-    localStorage.removeItem('k1');
-},50)
+// setTimeout(function(){
+//     localStorage.removeItem('k1');
+// },50)
 
 
 

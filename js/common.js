@@ -26,7 +26,11 @@ $('header').load('inc.html header > div',function(){
     $('nav > a:nth-of-type(3)').on('click',function(){
         // event.preventDefault()
         // location.href = './index.html'
-        
+        if(localStorage.getItem('k1', 'work')){
+            event.preventDefault();
+            $( 'html, body' ).animate( { scrollTop : 2001 }, 0 );
+            localStorage.removeItem('k1');
+        }
         localStorage.setItem('k1', 'work');
         
         

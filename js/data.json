@@ -6,7 +6,11 @@
             "day1":"2022 . 05 . 18",
             "day2":"~ 06 . 07",
             "video":"./video/daonpension.mp4",
-            "href":"https://sleay.github.io/project_1/"
+            "href":"https://sleay.github.io/project_1/",
+            "thumb":"./img/daon/daonpension.png",
+            "img":"./img/daon/daonimg.png"
+
+
 
 
         },
@@ -16,7 +20,10 @@
             "day1":"2022 . 06 . 28",
             "day2":"~ 07 . 13",
             "video":"./video/644studio.mp4",
-            "href":"https://sleay.github.io/clonesite/"
+            "href":"https://sleay.github.io/clonesite/",
+            "thumb":"./img/644studio/664studio.png",
+            "img":"./img/644studio/644img.png"
+
 
         },
         {
@@ -25,7 +32,9 @@
             "day1":"2022 . 07 . 13",
             "day2":"~ 07 . 29",
             "video":"./video/webflex.mp4",
-            "href":"https://sleay.github.io/teamproject/"
+            "href":"https://sleay.github.io/teamproject/",
+            "thumb":"./img/webflex/webflex.png",
+            "img":"./img/webflex/webfleximg.png"
 
 
         }
